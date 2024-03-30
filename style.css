@@ -1,0 +1,416 @@
+
+/*uploaded fonts*/
+
+
+@font-face { font-family: 'paragon'; 
+    src: url('/fonts/Paragon-Regular.woff2') format('woff2');
+    font-weight:normal;
+    font-style:normal;}             
+  
+@font-face { font-family: 'instrument'; 
+    src: url('/fonts/InstrumentSans-Regular.woff2') format('woff2');
+    font-weight:normal;
+    font-style:normal;}
+
+@font-face { font-family: 'instrument-bold'; 
+  src: url('/fonts/InstrumentSans-Bold.woff2') format('woff2');
+  font-weight:normal;
+  font-style:normal;}
+      
+@font-face { font-family: 'instrument-italics'; 
+  src: url('/fonts/InstrumentSans-Italic.woff2') format('woff2');
+  font-weight:normal;
+  font-style:normal;}
+
+@font-face { font-family: 'paragon-italics'; 
+  src: url('/fonts/Paragonitalic-Regular.woff2') format('woff2');
+  font-style:normal;}
+
+
+html {padding:0;margin:0 auto;width:100%;height:100%;overflow-x: hidden;max-height: 100%
+}
+body{padding:0;margin:0 auto;width:100%;height:100%;max-height: 100%;overflow-x:hidden!important;}
+.introductionspacer{display:none;}
+
+a.name:link{color:white!important;}
+a.name:visited{color:white!important;}
+a.name:hover{color:red!important;}
+a.name:active{color:white!important;}
+.learnmorehere{opacity:0!important;}
+.name,.transparent, .stickyhead, .email, .nolink{mix-blend-mode:difference!important;z-index:100;}
+    @media only screen and (max-width: 676px) {
+  .stickyhead{position:absolute;display:inline-block;}
+  .name{position:fixed;padding-left:10px!important;}
+  .learnmorehere {position:fixed!important;right:0;padding-right:30px!important;z-index:10;color:black;}
+  .email,.nolink{z-index:1000!important;mix-blend-mode: difference!important;}
+  .project_description,.name,.transparent, .email, .nolink, .learnmorehere, .introductionmore
+    {font-family:'instrument'!important; 
+      font-style:normal!important;
+      font-size:12pt!important;
+      letter-spacing:.55px!important;
+      padding:5px;}
+      .introduction {font-family:'instrument'!important; 
+        font-style:normal!important;
+        font-size:12pt!important;
+        letter-spacing:.25px!important;
+        padding:5px;}
+
+      .name,.transparent, .stickyhead, .email, .nolink{mix-blend-mode: difference!important;color:white;z-index:100;}
+  
+      .name a:link{color:white!important;}
+      .name a:visited{color:black!important;}
+      .name a:hover{color:white!important;}
+      .name a:active{color:white!important;}
+      
+      .learnmorehere a:link{color:black!important;mix-blend-mode: normal!important;}
+      .learnmorehere a:visited{color:black!important;mix-blend-mode: normal!important;}
+      .learnmorehere a:hover{color:black!important;mix-blend-mode: normal!important;}
+      .learnmorehere a:active{color:black!important;mix-blend-mode: normal!important;}
+  
+  .email{bottom:10px;left:0px;position:sticky;   
+      z-index:100;
+      /*  for click select all    */
+      -webkit-user-select: all;
+      user-select: all;overflow-anchor: none;
+      /*  remove the underline    */
+      }
+  
+  .headspacer{height:200px;position:relative;width:100%;}
+    
+  /*nolink also changes the email font*/
+  .nolink{
+  color: white;
+    pointer-events: none;
+    text-decoration: none !important;
+    -webkit-text-decoration: none !important;bottom:0;position:fixed;}    
+  
+  /* for email munging*/
+  .noshow{
+  display:none;
+  }
+  
+  
+
+  
+  body{font-family:'instrument'!important;font-size:12pt;letter-spacing:.8pt;line-height:23px!important;hyphens:auto;}
+  .introduction{position:static;width:80vw;max-width:900px;padding-left:15px!important;float:right;top:0;right:0;color:black;z-index:10000!important;padding-bottom:150px;}
+  
+  .serif{font-family:'paragon-italics'!important;letter-spacing:-.55pt;font-size:11.5pt;}
+  
+  a{text-decoration:none!important;}
+  a:link.serif {color:white!important;-webkit-text-fill-color:white!important;}
+  a:visited.serif {color:black!important;-webkit-text-fill-color:black!important;}
+  a:hover.serif {color:red!important;-webkit-text-fill-color:red!important;font-style:normal;}
+  a:active.serif {color:white!important;-webkit-text-fill-color:white!important;}
+  
+  
+  
+  
+  
+  .project{width:100%;}
+  .project_description{padding-top:10px;padding-left:10px;padding-right:20px;}
+  .bold{font-family:'instrument-bold'!important;display:inline-block;}
+  .italics{font-family:'instrument-italics'!important;display:inline-block;}
+  .sup {columns:2;padding-bottom:50px;font-size:80%;line-height:14px!important;width:98%;text-align:justify;hyphens: auto;padding-left:80px;}
+      .carousel-item{width:85vw;max-width:1200px!important;}
+      .d-block{z-index:-997;}
+  .carousel-control-next, .carousel-control-prev {mix-blend-mode: difference!important;}
+  
+  
+  
+  
+  
+  
+  .portrait{position:fixed;z-index:100px;width:200px;height:300px;bottom:0;background-size:100%;background-position:0px 0px;background-image:url("/2024_me/hwajinjun.png");background-repeat: no-repeat;position:absolute;mix-blend-mode: multiply;}
+  .lists.{font-size:80%;line-height:20px;}
+  .introductionmore{position:relative;width:80vw;float:right;top:0;max-width:900px;z-index:100;left: calc((100vw - 100%));padding-right:20px;}
+  
+  .colophon{padding-top:250px;float:right;width:100%;text-align:right;}
+  
+    }
+
+    
+    @media only screen and (min-width:677px) and (max-width:1234px) {
+      .stickyhead{position:absolute;display:inline-block;}
+.name{position:fixed;padding-left:10px!important;}
+.learnmorehere {position:fixed!important;right:0;padding-right:30px!important;z-index:10;color:black;}
+.email,.nolink{z-index:1000!important;mix-blend-mode: difference!important;}
+.name,.transparent, .email, .nolink, .introduction, .learnmorehere, .introductionmore,.colophon
+  {font-family:'instrument'!important; 
+    font-style:normal!important;
+    font-size:14pt!important;
+    letter-spacing:.25px!important;
+    padding:5px;line-height:25px!important;}
+    .transparent, .stickyhead, .email, .nolink{mix-blend-mode: difference!important;color:white;z-index:100;}
+    .name a:link{color:white!important;}
+    .name a:visited{color:black!important;}
+    .name a:hover{color:white!important;}
+    .name a:active{color:white!important;}
+    
+    .learnmorehere a:link{color:black!important;mix-blend-mode: normal!important;}
+    .learnmorehere a:visited{color:black!important;mix-blend-mode: normal!important;}
+    .learnmorehere a:hover{color:black!important;mix-blend-mode: normal!important;}
+    .learnmorehere a:active{color:black!important;mix-blend-mode: normal!important;}
+
+.email{bottom:10px;left:0px;position:sticky;   
+    z-index:100;
+    /*  for click select all    */
+    -webkit-user-select: all;
+    user-select: all;overflow-anchor: none;
+    /*  remove the underline    */
+    }
+
+.headspacer{height:200px;position:relative;width:100%;}
+  
+/*nolink also changes the email font*/
+.nolink{
+color: white;
+  pointer-events: none;
+  text-decoration: none !important;
+  -webkit-text-decoration: none !important;bottom:0;position:fixed;}    
+
+/* for email munging*/
+.noshow{
+display:none;
+}
+
+
+
+
+
+body{font-family:'instrument'!important;font-size:15pt;letter-spacing:.8pt;hyphens:auto;height:100%!important;width:100%!important;padding:0!important;margin:0!important;}
+.introductionspacer{display:inline-block!important;width:40vw!important;max-width:770px!important;background-color:none;height:100px;z-index:1000;}
+.introduction{position:static;width:57vw;max-width:900px;padding-left:15px!important;float:right;top:0;right:0;color:black;z-index:10000!important;margin-bottom:180px;}
+
+.serif{font-family:'paragon-italics'!important;letter-spacing:-.55pt;font-size:14pt;}
+
+a{text-decoration:none!important;}
+a:link.serif {color:white!important;-webkit-text-fill-color:white!important;}
+a:visited.serif {color:black!important;-webkit-text-fill-color:black!important;}
+a:hover.serif {color:red!important;-webkit-text-fill-color:red!important;font-style:normal;}
+a:active.serif {color:white!important;-webkit-text-fill-color:white!important;}
+
+
+
+
+
+.project{width:100vw;}
+.project_description{float:right;padding-left:10px;margin-right:15px;padding-top:10px;
+    width:657px;font-size:12pt!important;
+    letter-spacing:.25px!important;
+    padding:5px;line-height:20px!important;}
+.bold{font-family:'instrument-bold'!important;display:inline-block;}
+.italics{font-family:'instrument-italics'!important;display:inline-block;}
+.sup {columns:2;font-size:80%;line-height:14px!important;width:100%;text-align:justify;hyphens: auto;padding-bottom:50px;padding-left:70px;padding-right:19px;}
+    .carousel-item{width:85vw;max-width:1200px!important;}
+    .d-block{z-index:-997;}
+.carousel-control-next, .carousel-control-prev {mix-blend-mode: difference!important;}
+
+
+
+
+
+
+.portrait{position:relative;display:block;max-width:1694px!important;float:left;width:47vw;position:absolute;height:100%;background-image:url("/2024_me/hwajinjun.png");background-size:cover;background-repeat: no-repeat!important;mix-blend-mode: multiply;z-index:-100;background-position:0 -200px;}
+.lists,.fonts{font-size:80%;line-height:20px;}
+.introductionmore{position:relative;width:52vw;float:right;max-width:900px;z-index:100;left: calc((100vw - 100%));padding-right:20px;}
+
+.colophon{padding-top:50px;float:right;width:100%;text-align:right;}
+
+        }
+
+
+
+
+@media only screen and (min-width: 1235px) and (max-width:1550px){
+  
+.stickyhead{position:absolute;display:inline-block;}
+.name{position:fixed;padding-left:10px!important;}
+.learnmorehere {position:fixed!important;right:0;height:fit-content;padding-right:30px!important;color:black;}
+.email,.nolink{z-index:1000!important;mix-blend-mode: difference!important;}
+.name,.transparent, .email, .nolink, .learnmorehere,.colophon
+  {font-family:'instrument'!important; 
+    font-style:normal!important;
+    font-size:15pt!important;
+    letter-spacing:.25px!important;
+    padding:5px;}
+
+    .introduction,.introductionmore{font-family:'instrument'!important; 
+      font-style:normal!important;
+      font-size:15pt!important;
+      letter-spacing:.25px!important;}
+    .name,.transparent, .stickyhead, .email, .nolink{mix-blend-mode: difference!important;color:white;z-index:100;}
+
+    .name a:link{color:white!important;}
+    .name a:visited{color:black!important;}
+    .name a:hover{color:white!important;}
+    .name a:active{color:white!important;}
+    
+    .learnmorehere a:link{color:black!important;mix-blend-mode: normal!important;}
+    .learnmorehere a:visited{color:black!important;mix-blend-mode: normal!important;}
+    .learnmorehere a:hover{color:black!important;mix-blend-mode: normal!important;}
+    .learnmorehere a:active{color:black!important;mix-blend-mode: normal!important;}
+
+.email{bottom:10px;left:0px;position:sticky;   
+    z-index:100;
+    /*  for click select all    */
+    -webkit-user-select: all;
+    user-select: all;overflow-anchor: none;
+    /*  remove the underline    */
+    }
+
+.headspacer{height:200px;position:relative;width:100%;}
+  
+/*nolink also changes the email font*/
+.nolink{
+color: white;
+  pointer-events: none;
+  text-decoration: none !important;
+  -webkit-text-decoration: none !important;bottom:0;position:fixed;}    
+
+/* for email munging*/
+.noshow{
+display:none;
+}
+
+
+
+
+
+body{width:100%;height:100%;font-family:'instrument'!important;font-size:15pt;letter-spacing:.8pt;line-height:25px;hyphens:auto;}
+.parent{padding:0;}
+.introductionspacer{display:inline-block!important;width:45vw!important;max-width:770px!important;background-color:none;height:100px;z-index:1000;padding-left:0!important;padding-right:0!important;}
+.introduction{display:inline-block!important;width:53vw;max-width:900px;top:0;right:0;color:black;z-index:10000!important;}
+
+.serif{font-family:'paragon-italics'!important;letter-spacing:-.55pt;font-size:14pt;}
+
+a{text-decoration:none!important;}
+a:link.serif {color:white!important;-webkit-text-fill-color:white!important;}
+a:visited.serif {color:black!important;-webkit-text-fill-color:black!important;}
+a:hover.serif {color:red!important;-webkit-text-fill-color:red!important;font-style:normal;}
+a:active.serif {color:white!important;-webkit-text-fill-color:white!important;}
+
+
+
+
+
+.project{display:flex;max-width:1694px!important;width:100vw;}
+.project_description{flex-grow:1!important;padding-left:10px;padding-right:20px;
+    line-height:21px;letter-spacing:.7px;max-width:521px!important;}
+.bold{font-family:'instrument-bold'!important;display:inline-block;}
+.italics{font-family:'instrument-italics'!important;display:inline-block;}
+.sup {font-size:80%;line-height:14px!important;width:98%;text-align:justify;hyphens: auto;padding-left:80px;}
+    .carousel-item{width:85vw;max-width:1200px!important;}
+    .d-block{z-index:-997;}
+.carousel-control-next, .carousel-control-prev {mix-blend-mode: difference!important;}
+
+
+
+
+
+.pagewidth{width:100%;max-width:1694px;}
+.portrait{display:block;max-width:1694px!important;float:left;width:47vw;position:absolute;height:100%;background-image:url("/2024_me/hwajinjun.png");background-size:cover;background-repeat: no-repeat!important;mix-blend-mode: multiply;z-index:-100;background-position:0 -300px;}
+.lists{font-size:80%;line-height:20px;padding-top:0px;}
+.introductionmore{position:relative;width:52vw;float:right;max-width:900px;z-index:100;left: calc((100vw - 100%));padding-right:20px;}
+.fonts{bottom:0;font-size:80%;line-height:20px;}
+.colophon{padding-top:50px;float:right;width:100%;text-align:right;}
+
+  }
+
+
+
+  @media only screen and (min-width: 1551px) {
+    
+.stickyhead{position:absolute;display:inline-block;}
+.name{position:fixed;padding-left:10px!important;}
+.learnmorehere {position:fixed!important;right:0;height:fit-content;padding-right:30px!important;color:black;}
+.email,.nolink{z-index:1000!important;mix-blend-mode: difference!important;}
+.name,.transparent, .email, .nolink, .learnmorehere,.colophon
+  {font-family:'instrument'!important; 
+    font-style:normal!important;
+    font-size:15pt!important;
+    letter-spacing:.25px!important;
+    padding:5px;}
+
+    .introduction,.introductionmore{font-family:'instrument'!important; 
+      font-style:normal!important;
+      font-size:15pt!important;
+      letter-spacing:.25px!important;}
+    .name,.transparent, .stickyhead, .email, .nolink{mix-blend-mode: difference!important;color:white;z-index:100;}
+
+    .name a:link{color:white!important;}
+    .name a:visited{color:black!important;}
+    .name a:hover{color:white!important;}
+    .name a:active{color:white!important;}
+    
+    .learnmorehere a:link{color:black!important;mix-blend-mode: normal!important;}
+    .learnmorehere a:visited{color:black!important;mix-blend-mode: normal!important;}
+    .learnmorehere a:hover{color:black!important;mix-blend-mode: normal!important;}
+    .learnmorehere a:active{color:black!important;mix-blend-mode: normal!important;}
+
+.email{bottom:10px;left:0px;position:sticky;   
+    z-index:100;
+    /*  for click select all    */
+    -webkit-user-select: all;
+    user-select: all;overflow-anchor: none;
+    /*  remove the underline    */
+    }
+
+.headspacer{height:200px;position:relative;width:100%;}
+  
+/*nolink also changes the email font*/
+.nolink{
+color: white;
+  pointer-events: none;
+  text-decoration: none !important;
+  -webkit-text-decoration: none !important;bottom:0;position:fixed;}    
+
+/* for email munging*/
+.noshow{
+display:none;
+}
+
+
+
+
+
+body{width:100%;height:100%;font-family:'instrument'!important;font-size:15pt;letter-spacing:.8pt;line-height:25px;hyphens:auto;}
+.parent{padding:0;}
+.introductionspacer{display:inline-block!important;width:45vw!important;max-width:770px!important;background-color:none;height:100px;z-index:1000;padding-left:0!important;padding-right:0!important;}
+.introduction{display:inline-block!important;width:53vw;max-width:900px;top:0;right:0;color:black;z-index:10000!important;}
+
+.serif{font-family:'paragon-italics'!important;letter-spacing:-.55pt;font-size:14pt;}
+
+a{text-decoration:none!important;}
+a:link.serif {color:white!important;-webkit-text-fill-color:white!important;}
+a:visited.serif {color:black!important;-webkit-text-fill-color:black!important;}
+a:hover.serif {color:red!important;-webkit-text-fill-color:red!important;font-style:normal;}
+a:active.serif {color:white!important;-webkit-text-fill-color:white!important;}
+
+
+
+
+
+.project{display:flex;max-width:1694px!important;width:100vw;}
+.project_description{flex-grow:1!important;padding-left:10px;padding-right:20px;
+    line-height:21px;letter-spacing:.7px;max-width:521px!important;}
+.bold{font-family:'instrument-bold'!important;display:inline-block;}
+.italics{font-family:'instrument-italics'!important;display:inline-block;}
+.sup {font-size:80%;line-height:14px!important;width:98%;text-align:justify;hyphens: auto;padding-left:80px;}
+    .carousel-item{width:85vw;max-width:1200px!important;}
+    .d-block{z-index:-997;}
+.carousel-control-next, .carousel-control-prev {mix-blend-mode: difference!important;}
+
+
+
+
+
+.pagewidth{left:0px;max-width:1694px;width:100%!important;height:fit-content;background-color:none;position:absolute;z-index:-100px;margin:0!important;padding:0!important;mix-blend-mode: multiply;}
+.portrait{max-width:796.26px!important;float:left;width:47%;position:absolute;height:100%;background-image:url("/2024_me/hwajinjun.png");background-size:cover;background-repeat: no-repeat!important;mix-blend-mode: multiply;z-index:-100;background-position:0 -300px;}
+.lists{font-size:80%;line-height:20px;padding-top:0px;margin-bottom:30px;}
+.introductionmore{width:52%;float:right;max-width:860.94px!important;z-index:100;left: calc((100vw - 100%));padding-right:20px;}
+.fonts{bottom:0;font-size:80%;line-height:20px;}
+.colophon{position:absolute;bottom:5px;right:0;margin-right:5px;text-align:right;}
+  }
+
+  
